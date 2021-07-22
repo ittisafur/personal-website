@@ -31,67 +31,67 @@
         <div class="col-span-3">
           <h2 class="index-h2">Skills</h2>
           <img
-            class="w-14 h-14 mb-10 mr-10 inline-block"
+            class="w-12 h-14 mb-10 mr-10 inline-block"
             src="../static/img/vectors/html5.svg"
             alt="HTML 5"
           />
           <img
-            class="w-14 h-14 mb-10 mr-10 inline-block"
+            class="w-12 h-14 mb-10 mr-10 inline-block"
             src="../static/img/vectors/css3.svg"
             alt="CSS 3"
           />
           <img
-            class="w-14 h-14 mb-10 mr-10 inline-block"
+            class="w-12 h-14 mb-10 mr-10 inline-block"
             src="../static/img/vectors/sass.svg"
             alt="Sass"
           />
           <img
-            class="w-14 h-14 mb-10 mr-10 inline-block"
+            class="w-12 h-14 mb-10 mr-10 inline-block"
             src="../static/img/vectors/js.svg"
             alt="Javascript"
           />
           <img
-            class="w-14 h-14 mb-10 mr-10 inline-block"
+            class="w-12 h-14 mb-10 mr-10 inline-block"
             src="../static/img/vectors/php.svg"
             alt="PHP"
           />
           <img
-            class="inline-block mb-10 mr-10 w-14 h-14"
+            class="inline-block mb-10 mr-10 w-12 h-14"
             src="../static/img/vectors/wordpress.svg"
             alt="WordPress"
           />
           <img
-            class="inline-block mb-10 mr-10 w-14 h-14"
+            class="inline-block mb-10 mr-10 w-12 h-14"
             src="../static/img/vectors/laravel.svg"
             alt="Laravel"
           />
           <img
-            class="inline-block mb-10 mr-10 w-14 h-14"
+            class="inline-block mb-10 mr-10 w-12 h-14"
             src="../static/img/vectors/vue.svg"
             alt="Vue JS"
           />
           <img
-            class="inline-block mb-10 mr-10 w-14 h-14"
+            class="inline-block mb-10 mr-10 w-12 h-14"
             src="../static/img/vectors/ubuntu.svg"
             alt="Ubuntu"
           />
           <img
-            class="inline-block mb-10 mr-10 w-14 h-14"
+            class="inline-block mb-10 mr-10 w-12 h-14"
             src="../static/img/vectors/ps.svg"
             alt="Adobe Photoshop"
           />
           <img
-            class="inline-block mb-10 mr-10 w-14 h-14"
+            class="inline-block mb-10 mr-10 w-12 h-14"
             src="../static/img/vectors/ai.svg"
             alt="Adobe Illustrator"
           />
           <img
-            class="inline-block mb-10 mr-10 w-14 h-14"
+            class="inline-block mb-10 mr-10 w-12 h-14"
             src="../static/img/vectors/xd.svg"
             alt="Adobe XD"
           />
           <img
-            class="inline-block mb-10 mr-10 w-14 h-14"
+            class="inline-block mb-10 mr-10 w-12 h-14"
             src="../static/img/vectors/figma.svg"
             alt="Figma"
           />
