@@ -23,5 +23,8 @@ body{
     @apply bg-dark text-yellow font-mont;
 }
 p{
-    @apply text-base font-medium tracking-widest font-dosis;
+    @apply text-base font-medium font-dosis;
+}
+.index-h2{
+    @apply mb-2 text-2xl font-medium uppercase;
 }

@@ -13,7 +13,7 @@ module.exports = {
         colors: {
             dark: {
                 DEFAULT: '#1A1A1A',
-                dark: '#1A1616',
+                darker: '#1A1616',
             },
             yellow: {
                 DEFAULT: '#f4c859',
