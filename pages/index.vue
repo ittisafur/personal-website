@@ -4,7 +4,7 @@
       <h1 class="font-mont text-4xl mb-2 font-bold">MD Ittisafur Rahman</h1>
       <div class="grid grid-col-1 md:grid-cols-6 gap-6">
         <div class="col-span-3">
-          <h2 class="index-h2">Bio</h2>
+          <h2 class="index-h2 my-3">Bio</h2>
           <blockquote class="px-2 quote">
             <p class="mb-2 text-lg">"Don't just take, give something back".</p>
             <cite>
@@ -29,72 +29,74 @@
           </p>
         </div>
         <div class="col-span-3">
-          <h2 class="index-h2">Skills</h2>
-          <img
-            class="w-12 h-14 mb-10 mr-10 inline-block"
-            src="../static/img/vectors/html5.svg"
-            alt="HTML 5"
-          />
-          <img
-            class="w-12 h-14 mb-10 mr-10 inline-block"
-            src="../static/img/vectors/css3.svg"
-            alt="CSS 3"
-          />
-          <img
-            class="w-12 h-14 mb-10 mr-10 inline-block"
-            src="../static/img/vectors/sass.svg"
-            alt="Sass"
-          />
-          <img
-            class="w-12 h-14 mb-10 mr-10 inline-block"
-            src="../static/img/vectors/js.svg"
-            alt="Javascript"
-          />
-          <img
-            class="w-12 h-14 mb-10 mr-10 inline-block"
-            src="../static/img/vectors/php.svg"
-            alt="PHP"
-          />
-          <img
-            class="inline-block mb-10 mr-10 w-12 h-14"
-            src="../static/img/vectors/wordpress.svg"
-            alt="WordPress"
-          />
-          <img
-            class="inline-block mb-10 mr-10 w-12 h-14"
-            src="../static/img/vectors/laravel.svg"
-            alt="Laravel"
-          />
-          <img
-            class="inline-block mb-10 mr-10 w-12 h-14"
-            src="../static/img/vectors/vue.svg"
-            alt="Vue JS"
-          />
-          <img
-            class="inline-block mb-10 mr-10 w-12 h-14"
-            src="../static/img/vectors/ubuntu.svg"
-            alt="Ubuntu"
-          />
-          <img
-            class="inline-block mb-10 mr-10 w-12 h-14"
-            src="../static/img/vectors/ps.svg"
-            alt="Adobe Photoshop"
-          />
-          <img
-            class="inline-block mb-10 mr-10 w-12 h-14"
-            src="../static/img/vectors/ai.svg"
-            alt="Adobe Illustrator"
-          />
-          <img
-            class="inline-block mb-10 mr-10 w-12 h-14"
-            src="../static/img/vectors/xd.svg"
-            alt="Adobe XD"
-          />
-          <img
-            class="inline-block mb-10 mr-10 w-12 h-14"
-            src="../static/img/vectors/figma.svg"
-            alt="Figma"
-          />
+          <h2 class="index-h2 text-center lg:text-left my-3">Skills</h2>
+          <div class="flex flex-wrap justify-center lg:justify-start gap-10">
+            <img
+              class="w-12 h-14 inline-block"
+              src="../static/img/vectors/html5.svg"
+              alt="HTML 5"
+            />
+            <img
+              class="w-12 h-14 inline-block"
+              src="../static/img/vectors/css3.svg"
+              alt="CSS 3"
+            />
+            <img
+              class="w-12 h-14 inline-block"
+              src="../static/img/vectors/sass.svg"
+              alt="Sass"
+            />
+            <img
+              class="w-12 h-14 inline-block"
+              src="../static/img/vectors/js.svg"
+              alt="Javascript"
+            />
+            <img
+              class="w-12 h-14 inline-block"
+              src="../static/img/vectors/php.svg"
+              alt="PHP"
+            />
+            <img
+              class="inline-block w-12 h-14"
+              src="../static/img/vectors/wordpress.svg"
+              alt="WordPress"
+            />
+            <img
+              class="inline-block w-12 h-14"
+              src="../static/img/vectors/laravel.svg"
+              alt="Laravel"
+            />
+            <img
+              class="inline-block w-12 h-14"
+              src="../static/img/vectors/vue.svg"
+              alt="Vue JS"
+            />
+            <img
+              class="inline-block w-12 h-14"
+              src="../static/img/vectors/ubuntu.svg"
+              alt="Ubuntu"
+            />
+            <img
+              class="inline-block w-12 h-14"
+              src="../static/img/vectors/ps.svg"
+              alt="Adobe Photoshop"
+            />
+            <img
+              class="inline-block w-12 h-14"
+              src="../static/img/vectors/ai.svg"
+              alt="Adobe Illustrator"
+            />
+            <img
+              class="inline-block w-12 h-14"
+              src="../static/img/vectors/xd.svg"
+              alt="Adobe XD"
+            />
+            <img
+              class="inline-block w-12 h-14"
+              src="../static/img/vectors/figma.svg"
+              alt="Figma"
+            />
+          </div>
         </div>
       </div>
     </main>
