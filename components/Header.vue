@@ -1,5 +1,5 @@
 <template>
-  <header>
+  <header class="hidden">
     <div class="menu-container">
       <input type="checkbox" class="toggler" />
       <div class="hamburger">

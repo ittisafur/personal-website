@@ -126,6 +126,21 @@
           </p>
         </div>
       </div>
+      <div class="grid grid-cols-1 justify-items-center">
+        <a
+          href="#"
+          class="
+            hover:bg-yellow hover:text-dark
+            transition
+            duration-300
+            mt-5
+            py-2
+            px-6
+            hidden
+          "
+          >Visit Services</a
+        >
+      </div>
     </section>
   </div>
 </template>
