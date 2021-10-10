@@ -144,3 +144,70 @@
     </section>
   </div>
 </template>
+
+<script>
+import {
+  auth,
+  loginWithGoogle,
+  onAuthStateChanged,
+  logout
+} from "../plugins/firebase";
+export default {
+  /* data() { */
+  /*   return { */
+  /*     appname: process.env.NAME */
+  /*   }; */
+  /* }, */
+  mounted() {
+    onAuthStateChanged(auth, user => {
+      console.log(user);
+    });
+  },
+  methods: {
+    handleClick() {
+      loginWithGoogle();
+    },
+    handleLogout() {
+      logout();
+    }
+  },
+  head: {
+    title: "Ittisafur - Your Web Guy | Home Page",
+    meta: [
+      {
+        name: "description",
+        content: `Laravel, Vue, Tailwind and Wordpress developer`
+      },
+      {
+        name: "keywords",
+        content: `web design, website design, website builder, wordpress, wordpress developer, web developer, web designer, website creator, responsive web design, linux, linux adminstrator, database, upwork, fiverr, ecommerce`
+      },
+      {
+        property: "og:title",
+        content: `Ittisafur - Your Web Guy`
+      },
+      {
+        property: "og:url",
+        content: "https://www.ittisafur.com"
+      },
+      {
+        property: "og:description",
+        content: `Let's look around`
+      },
+      {
+        property: "og:image",
+        content:
+          "https://res.cloudinary.com/techdiary-dev/image/fetch/c_scale,f_auto,q_auto,w_1200/https://user-images.githubusercontent.com/7611746/82744130-38b0fd80-9d96-11ea-8223-62d62a56566f.png"
+      },
+      {
+        property: "og:image:width",
+        content: "1200"
+      },
+      {
+        property: "og:image:height",
+        content: "630"
+      }
+    ]
+  }
+};
+</script>

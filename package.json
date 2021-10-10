@@ -1,27 +1,31 @@
 {
-    "name": "personal-website",
-    "version": "1.0.0",
-    "private": true,
-    "scripts": {
-        "dev": "nuxt",
-        "build": "nuxt build",
-        "start": "nuxt start",
-        "generate": "nuxt generate"
-    },
-    "dependencies": {
-        "@nuxtjs/axios": "^5.13.6",
-        "@nuxtjs/pwa": "^3.3.5",
-        "core-js": "^3.15.1",
-        "nuxt": "^2.15.7"
-    },
-    "devDependencies": {
-        "@fortawesome/free-brands-svg-icons": "^5.15.3",
-        "@fortawesome/free-solid-svg-icons": "^5.15.3",
-        "@nuxtjs/fontawesome": "^1.1.2",
-        "@nuxtjs/tailwindcss": "^4.2.0",
-        "fibers": "^5.0.0",
-        "postcss": "^8.3.5",
-        "sass": "^1.35.2",
-        "sass-loader": "^10.2.0"
-    }
+  "name": "personal-website",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/pwa": "^3.3.5",
+    "core-js": "^3.15.1",
+    "firebase": "^9.1.2",
+    "nuxt": "^2.15.7",
+    "nuxt-start": "^2.15.8",
+    "firebase-admin": "^9.8.0",
+    "firebase-functions": "^3.14.1"
+  },
+  "devDependencies": {
+    "@fortawesome/free-brands-svg-icons": "^5.15.3",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@nuxtjs/fontawesome": "^1.1.2",
+    "@nuxtjs/tailwindcss": "^4.2.0",
+    "fibers": "^5.0.0",
+    "postcss": "^8.3.5",
+    "sass": "^1.35.2",
+    "sass-loader": "^10.2.0"
+  }
 }
